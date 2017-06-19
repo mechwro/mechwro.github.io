@@ -321,6 +321,41 @@ iframe {
   margin: 0;
 }
 
+.btn_up {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#38b5e3), to(#248cd3));
+  background: -webkit-linear-gradient(top, #38b5e3 0%, #248cd3 100%);
+  background: -o-linear-gradient(top, #38b5e3 0%, #248cd3 100%);
+  background: linear-gradient(to bottom, #38b5e3 0%, #248cd3 100%);
+  width: 39px;
+  height: 39px;
+  line-height: 35px;
+  z-index: 100;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: 0px 0px 20px 3px rgba(46, 161, 219, 0.3);
+          box-shadow: 0px 0px 20px 3px rgba(46, 161, 219, 0.3);
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+a.btn_up:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #1f1f26;
+}
+
+.btn_none {
+  display: none;
+}
+
 .tint .btn {
   display: inline-block;
   -webkit-box-shadow: 0px 0px 20px 3px rgba(46, 161, 219, 0.3);
